@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "example_package_DGH"
 version = "0.0.1"
 authors = [
-  { name="Donatella, Gerome, Harsha", email="DGH@example.com" },
+  { name="Donatella, Gerome, Harsha ", email="DGH@example.com" },
 ]
 description = "A small example package"
 readme = "README.md"
