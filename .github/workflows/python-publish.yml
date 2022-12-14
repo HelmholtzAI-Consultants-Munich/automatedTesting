@@ -35,9 +35,5 @@ jobs:
       run: python -m build
     - name: Check dist files
       run: twine check dist/*
-    - name: Creating environment and upload package
-      env:
-          TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN_RELEASE }}
-      run: twine upload --repository-url=https://test.pypi.org/legacy/ dist/*
+    
       
