@@ -40,5 +40,5 @@ jobs:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN_RELEASE }}
     - name: Upload package
-       run:twine upload --repository-url=https://test.pypi.org/legacy/ dist/*
+      run: twine upload --repository-url=https://test.pypi.org/legacy/ dist/*
       
