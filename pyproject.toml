@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "example_package_DGH"
-version = "0.0.1"
+dynamic = ["version"]
 authors = [
   { name="Donatella, Gerome, Harsha ", email="DGH@example.com" },
 ]
@@ -17,6 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[tool.setuptools_scm]
 [project.urls]
 "Homepage" = "https://github.com/HelmholtzAI-Consultants-Munich/automatedTesting"
 "Bug Tracker" = "https://github.com/HelmholtzAI-Consultants-Munich/automatedTesting/issues"
